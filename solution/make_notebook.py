@@ -10,7 +10,7 @@ def build():
     def code(s):
         cells.append({'cell_type': 'code', 'metadata': {}, 'execution_count': None, 'outputs': [],
                       'source': s.splitlines(keepends=True)})
-    md('# Lab Day 10 — Qwen3-VL grounding\nĐặng Đình Đoan · 2A202602927. Code hoàn chỉnh ở `solution/`. '
+    md('# Lab Day 10 — Qwen3-VL grounding\nĐặng Đỉnh Đoàn · 2A202602927. Code hoàn chỉnh ở `solution/`. '
        'Đọc `HUONG_DAN_CHAY.md`. **RUN_GPU=False** mặc định: không tự train hoặc inference. '
        'Upload ZIP source mới từ máy bạn; notebook không dựa vào bản GitHub chưa được cập nhật.')
     md('## 0. Môi trường Colab / Kaggle\nColab: chọn T4; Kaggle: bật GPU và Internet. '

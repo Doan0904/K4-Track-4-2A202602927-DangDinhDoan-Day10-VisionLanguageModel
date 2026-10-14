@@ -1,4 +1,4 @@
-Họ tên: Đặng Đình Đoan · Mã học viên: 2A202602927
+Họ tên: Đặng Đỉnh Đoàn · Mã học viên: 2A202602927
 
 Trạng thái: **đã chạy xong E0–E3 và E4 trên GPU (Kaggle 2×T4); số liệu và nhận xét bên dưới lấy từ lần chạy đó**.
 Các khối giữa hai dòng `AUTO` do `python -m solution.report --write` điền từ `report/evidence/*.json`;

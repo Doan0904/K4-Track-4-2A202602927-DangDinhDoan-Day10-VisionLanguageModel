@@ -34,7 +34,7 @@ def payload():
 
 TITLE = """
 # Lab Day 10 (Kaggle) — Finetune Qwen3-VL-4B + LoRA cho grounding hư hại mặt đường
-Đặng Đình Đoan · 2A202602927. Notebook này chạy **một lần Save & Run All**: E0 → E1/E2/E3 → E4 (→ E5 nếu bật) → phân tích → báo cáo.
+Đặng Đỉnh Đoàn · 2A202602927. Notebook này chạy **một lần Save & Run All**: E0 → E1/E2/E3 → E4 (→ E5 nếu bật) → phân tích → báo cáo.
 
 **Trước khi bấm *Save Version → Save & Run All (Commit)*:**
 1. *Settings → Accelerator*: **GPU T4 ×2** (không chọn P100). *Internet*: **On**.
