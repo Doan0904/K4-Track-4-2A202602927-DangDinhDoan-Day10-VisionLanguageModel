@@ -12,3 +12,5 @@ adapter*/
 .ipynb_checkpoints/
 .pytest_cache/
 .DS_Store
+artifacts/
+day10_colab.zip
