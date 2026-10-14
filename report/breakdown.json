@@ -1,0 +1,182 @@
+{
+  "split": "test",
+  "n_images": 311,
+  "runs": {
+    "e1": {
+      "tp": 160,
+      "fp": 457,
+      "fn": 423,
+      "f1": 0.2667,
+      "mean_pred_per_image": 1.984,
+      "mean_gt_per_image": 1.875,
+      "images_with_6plus_predictions": 11,
+      "images_with_2plus_near_duplicate_predictions": 0,
+      "images_without_gt": 0,
+      "images_without_gt_but_predicted": 0,
+      "gt_recall_by_box_size": {
+        "small<0.2%": {
+          "matched": 1,
+          "total": 37,
+          "recall": 0.027
+        },
+        "medium0.2-1%": {
+          "matched": 63,
+          "total": 241,
+          "recall": 0.261
+        },
+        "large>=1%": {
+          "matched": 96,
+          "total": 305,
+          "recall": 0.315
+        }
+      },
+      "gt_recall_by_class": {
+        "pothole": {
+          "matched": 20,
+          "total": 121,
+          "recall": 0.165
+        },
+        "crack": {
+          "matched": 67,
+          "total": 299,
+          "recall": 0.224
+        },
+        "manhole": {
+          "matched": 73,
+          "total": 163,
+          "recall": 0.448
+        }
+      },
+      "fp_types": {
+        "no_overlap_with_same_class_gt": 272,
+        "localization(0.1<=IoU<0.5)": 150,
+        "wrong_class": 35
+      }
+    },
+    "e2": {
+      "tp": 196,
+      "fp": 389,
+      "fn": 387,
+      "f1": 0.3356,
+      "mean_pred_per_image": 1.881,
+      "mean_gt_per_image": 1.875,
+      "images_with_6plus_predictions": 6,
+      "images_with_2plus_near_duplicate_predictions": 0,
+      "images_without_gt": 0,
+      "images_without_gt_but_predicted": 0,
+      "gt_recall_by_box_size": {
+        "small<0.2%": {
+          "matched": 1,
+          "total": 37,
+          "recall": 0.027
+        },
+        "medium0.2-1%": {
+          "matched": 77,
+          "total": 241,
+          "recall": 0.32
+        },
+        "large>=1%": {
+          "matched": 118,
+          "total": 305,
+          "recall": 0.387
+        }
+      },
+      "gt_recall_by_class": {
+        "pothole": {
+          "matched": 28,
+          "total": 121,
+          "recall": 0.231
+        },
+        "crack": {
+          "matched": 83,
+          "total": 299,
+          "recall": 0.278
+        },
+        "manhole": {
+          "matched": 85,
+          "total": 163,
+          "recall": 0.521
+        }
+      },
+      "fp_types": {
+        "no_overlap_with_same_class_gt": 212,
+        "localization(0.1<=IoU<0.5)": 140,
+        "wrong_class": 37
+      }
+    },
+    "e3": {
+      "tp": 256,
+      "fp": 303,
+      "fn": 327,
+      "f1": 0.4483,
+      "mean_pred_per_image": 1.797,
+      "mean_gt_per_image": 1.875,
+      "images_with_6plus_predictions": 3,
+      "images_with_2plus_near_duplicate_predictions": 0,
+      "images_without_gt": 0,
+      "images_without_gt_but_predicted": 0,
+      "gt_recall_by_box_size": {
+        "small<0.2%": {
+          "matched": 4,
+          "total": 37,
+          "recall": 0.108
+        },
+        "medium0.2-1%": {
+          "matched": 100,
+          "total": 241,
+          "recall": 0.415
+        },
+        "large>=1%": {
+          "matched": 152,
+          "total": 305,
+          "recall": 0.498
+        }
+      },
+      "gt_recall_by_class": {
+        "pothole": {
+          "matched": 36,
+          "total": 121,
+          "recall": 0.298
+        },
+        "crack": {
+          "matched": 116,
+          "total": 299,
+          "recall": 0.388
+        },
+        "manhole": {
+          "matched": 104,
+          "total": 163,
+          "recall": 0.638
+        }
+      },
+      "fp_types": {
+        "localization(0.1<=IoU<0.5)": 120,
+        "no_overlap_with_same_class_gt": 146,
+        "wrong_class": 37
+      }
+    }
+  },
+  "by_session": {
+    "num-4": {
+      "images": 15,
+      "gt_boxes": 25,
+      "e1": 0.3556,
+      "e2": 0.4783,
+      "e3": 0.5652
+    },
+    "vlc-2025-02-18-23": {
+      "images": 213,
+      "gt_boxes": 375,
+      "e1": 0.2861,
+      "e2": 0.3308,
+      "e3": 0.4468
+    },
+    "vlc-2025-02-19-17": {
+      "images": 83,
+      "gt_boxes": 183,
+      "e1": 0.2137,
+      "e2": 0.3274,
+      "e3": 0.4358
+    }
+  }
+}
