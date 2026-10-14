@@ -1,5 +1,12 @@
 # Lab Day 10: Finetune Qwen3-VL-4B (LoRA) để định vị hư hại mặt đường
 
+> **Bản triển khai của học viên:** đọc [HUONG_DAN_CHAY.md](HUONG_DAN_CHAY.md) để chạy trên Colab/Kaggle.
+> Mã nằm trong `solution/`; `lab_day10.ipynb` là notebook Colab (mặc định không chạy GPU),
+> `lab_day10_kaggle.ipynb` là notebook Kaggle chạy một lần, `lab_day10_kaggle_run.ipynb` là bản đã chạy (có output).
+> **Đã chạy E0–E4 trên Kaggle 2×T4** (E5 bonus chưa chạy): evidence ở `report/evidence/`, báo cáo ở `REPORT.md`,
+> phân tích lỗi ở `report/breakdown.json`, ảnh minh hoạ ở `report/figures/`.
+> Công cụ `scripts/`, `tests/` và cấu hình thí nghiệm gốc được giữ nguyên.
+
 > Track 4 · Ngày 10 · *Nhãn, auto-labeling và Vision–Language Model* · **bài cá nhân** · ≈ 4 giờ trên **Google Colab T4 (miễn phí)**
 > Bạn **tự viết** phần huấn luyện và suy luận theo pseudo code trong [`GUIDE.md`](GUIDE.md). Công cụ chia dữ liệu và chấm điểm do giảng viên viết sẵn và **không được sửa**.
 
