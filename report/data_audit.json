@@ -1,0 +1,79 @@
+{
+  "dataset_version": "d10-21e4070301",
+  "session_overlap": false,
+  "splits": {
+    "train": {
+      "images": 1422,
+      "boxes": {
+        "pothole": 1074,
+        "crack": 1750,
+        "manhole": 691
+      },
+      "sessions": 13,
+      "median_box_area": {
+        "pothole": 0.0037586894095,
+        "crack": 0.013465637066,
+        "manhole": 0.00390625
+      },
+      "unusable_target_boxes": {
+        "pothole": 0,
+        "crack": 1,
+        "manhole": 0
+      },
+      "unusable_target_examples": [
+        {
+          "image_id": "vlcsnap-00058",
+          "object_index": 1,
+          "label": "crack",
+          "yolo": [
+            0.639062,
+            0.786111,
+            0.003125,
+            0.0
+          ],
+          "reason": "zero_area"
+        }
+      ]
+    },
+    "val": {
+      "images": 276,
+      "boxes": {
+        "pothole": 66,
+        "crack": 470,
+        "manhole": 103
+      },
+      "sessions": 2,
+      "median_box_area": {
+        "pothole": 0.003630682205,
+        "crack": 0.0132096243055,
+        "manhole": 0.00661894184
+      },
+      "unusable_target_boxes": {
+        "pothole": 0,
+        "crack": 0,
+        "manhole": 0
+      },
+      "unusable_target_examples": []
+    },
+    "test": {
+      "images": 311,
+      "boxes": {
+        "pothole": 121,
+        "crack": 299,
+        "manhole": 163
+      },
+      "sessions": 3,
+      "median_box_area": {
+        "pothole": 0.004192700868000001,
+        "crack": 0.019813205035,
+        "manhole": 0.006688347743
+      },
+      "unusable_target_boxes": {
+        "pothole": 0,
+        "crack": 0,
+        "manhole": 0
+      },
+      "unusable_target_examples": []
+    }
+  }
+}
